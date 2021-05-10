@@ -584,7 +584,7 @@ body {
 .order-form {
     min-height: 990px;
     padding-top: 47px;
-    padding-bottom: 90px;
+    padding-bottom: 110px;
     background-color: #ffcb78;
 }
 
@@ -741,7 +741,7 @@ label[for=amount]::after {
 
 .order-form .buy-button {
     margin-top: 15px;
-    padding: 18px 20px;
+    padding: 16px 22px;
     border: none;
     background-color: #834700;
     font-size: 16px;
@@ -760,4 +760,98 @@ label[for=amount]::after {
     background-color: #6a3900;
     border-color: #6a3900;
     color: #a08874
+}
+
+.footer {
+    min-height: 245px;
+    padding-top: 60px;
+    background-color: #000000;
+}
+
+.footer .container {
+}
+
+.footer .header-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+    margin-left: 38px;
+}
+
+.footer-top .main-nav {
+    margin-left: 130px;
+}
+
+.footer-bottom {
+    margin-top: 45px;
+    color: #989898;
+    font-size: 14px;
+}
+
+.footer-social {
+    float: left;
+    margin: 0 95px 0 0;
+    font-size: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.footer-social a,
+.footer-copyright img {
+    background-color: #1b1b1b;
+    border: 1px solid #322d24;
+    border-collapse: collapse;
+}
+
+.footer-social a:hover,
+.footer-copyright img:hover {
+    border-color: #605037;
+}
+
+.footer-social a:active,
+.footer-copyright img:active {
+    background-color: #0e0e0e;
+    border-color: #272119;
+}
+
+.footer-social #instagram {
+    padding: 26px 28px;
+    content: url("../img/icon-insta.png");
+}
+
+.footer-social #facebook {
+    padding: 25px 30px;
+    content: url("../img/icon-fb.png");
+}
+
+.footer-social #vk {
+    padding: 27.5px 24px;
+    content: url("../img/icon-vk.png");
+}
+
+.footer-social + p {
+    float: left;
+    width: 195px;
+    margin-right: 210px;
+    line-height: 20px;
+}
+
+.footer-copyright {
+    float: left;
+}
+
+.footer-copyright img {
+    padding: 15px 20px;
+    margin-right: 30px;
+}
+
+.footer-copyright b, .footer-copyright a {
+    display: inline-block;
+    vertical-align: 140%;
+    line-height: 20px;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: inherit;
 }
