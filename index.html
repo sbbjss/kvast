@@ -4,7 +4,15 @@
     <meta charset="utf-8">
     <title>Кваст</title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        if (window.innerWidth < 1080) {
+            window.onload = function () {
+                var mvp = document.getElementById('viewport');
+                mvp.setAttribute('content', 'width=1080');
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="page-header">
